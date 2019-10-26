@@ -1,0 +1,42 @@
+
+@media all and (min-width:1024px) {
+    .kt-header{
+        background-color: white;
+        height: 50px;
+    }
+}
+.kt-header-logo{
+    margin-right: 0 !important;
+}
+.kt-header-menu .kt-menu__nav > .kt-menu__item{
+    padding: 0;
+}
+.kt-header--fixed .kt-wrapper{
+    padding-top: 50px !important;
+}
+.kt-header-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--here{
+    background-color: #18a899;
+    color: white;
+}
+.kt-header-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--hover, .kt-header-menu .kt-menu__nav > .kt-menu__item:hover{
+    background-color: #18a899;
+}
+.kt-header-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--here > .kt-menu__link .kt-menu__link-icon {
+    color: white;
+}
+.kt-header-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--here > .kt-menu__link .kt-menu__link-text {
+    color: white;
+}
+.kt-header-menu .kt-menu__nav > .kt-menu__item:hover:not(.kt-menu__item--here):not(.kt-menu__item--active) > .kt-menu__link .kt-menu__link-icon, .kt-header-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--hover:not(.kt-menu__item--here):not(.kt-menu__item--active) > .kt-menu__link .kt-menu__link-icon {
+    color: white;
+}
+.kt-header-menu .kt-menu__nav > .kt-menu__item:hover:not(.kt-menu__item--here):not(.kt-menu__item--active) > .kt-menu__link .kt-menu__link-text, .kt-header-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--hover:not(.kt-menu__item--here):not(.kt-menu__item--active) > .kt-menu__link .kt-menu__link-text {
+    color: white;
+}
+.kt-quick-search .kt-quick-search__form {
+    background-color: #eeeef2;
+}
+.my-icon-fa{
+    margin-bottom: 20px;
+    text-align: center;
+}
